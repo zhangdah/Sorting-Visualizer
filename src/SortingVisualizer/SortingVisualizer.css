@@ -1,0 +1,44 @@
+
+.chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  height: 600px;
+  margin: 10px auto;
+  background-color: black;
+}
+
+.bar {
+  width: 20px;
+  background-color: steelblue;
+  margin: 0 5px;
+  transition: height 0.5s;
+}
+
+body {
+  background-color: black; /* Set the background color of the entire webpage to black */
+  margin: 0; /* Remove default margin for the body */
+  padding: 0; /* Remove default padding for the body */
+}
+
+/* Define styles for your button */
+.button {
+  background-color: #0074D9; /* Button background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor to a hand when hovering */
+  margin: 10px;
+}
+
+/* Add styles for button hover and active states */
+.button:hover {
+  background-color: #0056B3; /* Darker background color on hover */
+}
+
+.button:active {
+  background-color: #004EAA; /* Even darker background color when clicked */
+}
